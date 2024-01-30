@@ -29,7 +29,7 @@ sudo apt-get install jenkins
  Run the command to copy the Jenkins Admin Password 
  -----------------------------------------------------
  
- sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
+ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 
