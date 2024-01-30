@@ -1,15 +1,18 @@
 Install Java
+-------------
 
 sudo apt update
 sudo apt install openjdk-11-jre
 
 
 Verify Java is Installed
+------------------------------
 
 java -version
 
 
 Now, you can proceed with installing Jenkins
+--------------------------------------------
 
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
@@ -25,12 +28,14 @@ sudo apt-get install jenkins
 
 
  Run the below command to Install Docker
+ ----------------------------------------
 
 sudo apt update
 sudo apt install docker.io
 
 
 Docker Permisssion
+----------------
 sudo su - 
 usermod -aG docker jenkins
 usermod -aG docker ubuntu
